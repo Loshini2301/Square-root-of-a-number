@@ -1,5 +1,8 @@
-# Find the square root of a number
 
+# Find the square root of a number
+## NAME:LOSHINI G
+## REGISTER NO:212223220051
+## DEPARTMENT:IT
 ## AIM:
 To write a program to find the square root of a number.
 
@@ -16,15 +19,23 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+#program to find the square root for the given number(newton's method) using function.
+#Developed by:Loshini G
+#Reg No:23012268
+def square_root(a):
+    x=0.5*a
+    y=0.5*(x+a/x)
+    while y!=x:
+        x=y
+        y=0.5*(x+a/x)
+    return x
+n=int(input())  
+result=square_root(n)
+print("Square root of the number:",result)
 ```
 
 ## Output:
-
+![Screenshot 2025-05-25 171006](https://github.com/user-attachments/assets/7d05e77a-9481-4a03-a22c-ab3ced3987c0)
 
 
 ## Result:
